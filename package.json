@@ -1,0 +1,26 @@
+{
+  "name": "thething",
+  "version": "1.0.0",
+  "description": "The code that goes on the thing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theinternetthing/thething.git"
+  },
+  "author": "Karissa McKelvey <karissa@karissamck.com> (http://karissamck.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theinternetthing/thething/issues"
+  },
+  "homepage": "https://github.com/theinternetthing/thething#readme",
+  "dependencies": {
+    "concat-stream": "^1.5.1",
+    "debug": "^2.2.0",
+    "handlebars": "^4.0.5",
+    "wifi-control": "^1.0.1",
+    "wifi-list": "^1.2.1"
+  }
+}

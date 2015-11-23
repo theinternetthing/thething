@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <form method="post" action="/wifi">
+      <h2>Name</h2>
+      {{state}}
+      <select type="text" name="name">
+        {{#wifis}}
+        <option value="{{ssid}}">{{ssid}}</option>
+        {{/wifis}}
+      </select>
+      <input type="password" name="password" />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
